@@ -1,0 +1,10 @@
+services:
+  backstage-demo-1:
+    build:
+      context: .
+      target: production
+    image: backstage-demo-1
+    container_name: backstage-demo-1
+    environment:
+      APPINSIGHTS_CLOUDROLE: backstage-demo-1-local
+      APPINSIGHTS_CONNECTIONSTRING: ${APPINSIGHTS_CONNECTIONSTRING}

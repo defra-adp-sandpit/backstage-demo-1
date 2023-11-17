@@ -1,0 +1,3 @@
+services:
+  backstage-demo-1:
+    command: npm run start:debug

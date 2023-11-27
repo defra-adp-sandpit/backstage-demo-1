@@ -1,4 +1,5 @@
 # backstage-demo-1
+A demo service for testing backstage development portal
 
 Test repo
 
